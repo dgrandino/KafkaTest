@@ -22,8 +22,9 @@ Created topic test
 # Open intelliJ and select import project and select the pom.xml file
 
 - run the following command lines in different windows to simulate producer o and consumer
- mvn clean compile exec:java -Dexec.mainClass="io.grandino.kafka.example.javaspringkafkaexample.JavaSpringKafkaSimpleProducer" -Dexec.args="test"
- mvn clean compile exec:java -Dexec.mainClass="io.grandino.kafka.example.javaspringkafkaexample.JavaSpringKafkaSimpleConsumer" -Dexec.args="test"
+ - mvn clean compile exec:java -Dexec.mainClass="io.grandino.kafka.example.javaspringkafkaexample.JavaSpringKafkaSimpleProducer" -Dexec.args="test"
+ - mvn clean compile exec:java -Dexec.mainClass="io.grandino.kafka.example.javaspringkafkaexample.JavaSpringKafkaSimpleConsumer" -Dexec.args="test"
+
 -What is written in the producer will be shown in the consumer  
 
 Was used the Spring Initilzr web
